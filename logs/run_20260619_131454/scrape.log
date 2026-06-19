@@ -1,0 +1,13 @@
+13:15:00 | INFO    | logs/run_20260619_131454:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/مذاکرات_ایران_و_آمریکا_(۱۴۰۴–۱۴۰۵)
+13:15:01 | INFO    | logs/run_20260619_131454:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/مذاکرات_ایران_و_آمریکا_(۱۴۰۴–۱۴۰۵) (40285 کاراکتر)
+13:15:01 | INFO    | logs/run_20260619_131454:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جنگ_آمریکا_و_اسرائیل_با_ایران
+13:15:02 | INFO    | logs/run_20260619_131454:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جنگ_آمریکا_و_اسرائیل_با_ایران (158112 کاراکتر)
+13:15:02 | INFO    | logs/run_20260619_131454:scrape | در حال استخراج: https://www.bbc.com/persian/live/ckg4n533xy1t
+13:15:02 | INFO    | logs/run_20260619_131454:scrape | [trafilatura] موفق: https://www.bbc.com/persian/live/ckg4n533xy1t (15102 کاراکتر)
+13:15:02 | INFO    | logs/run_20260619_131454:scrape | در حال استخراج: https://parsi.euronews.com/2025/05/06/persian-headline-iiran-and-us-talsk-israel-houthis-and-yemen
+13:15:03 | INFO    | logs/run_20260619_131454:scrape | [trafilatura] موفق: https://parsi.euronews.com/2025/05/06/persian-headline-iiran-and-us-talsk-israel-houthis-and-yemen (1817 کاراکتر)
+13:15:03 | INFO    | logs/run_20260619_131454:scrape | در حال استخراج: https://telewebion.ir/episode/0x16c5ab05
+13:19:35 | ERROR   | logs/run_20260619_131454:scrape | [bs4-fallback] شکست برای https://telewebion.ir/episode/0x16c5ab05: HTTPSConnectionPool(host='telewebion.ir', port=443): Max retries exceeded with url: /episode/0x16c5ab05 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1458afe8c2c0>, 'Connection to telewebion.ir timed out. (connect timeout=15)'))
+13:19:35 | WARNING | logs/run_20260619_131454:scrape | رد شد (متن ناکافی یا خالی): https://telewebion.ir/episode/0x16c5ab05
+13:19:35 | INFO    | logs/run_20260619_131454:scrape | حذف شد از لیست نهایی (بدون محتوای قابل‌استفاده): https://telewebion.ir/episode/0x16c5ab05
+13:19:35 | INFO    | logs/run_20260619_131454:scrape | استخراج پایان یافت. 4 از 5 صفحه معتبر بودند.

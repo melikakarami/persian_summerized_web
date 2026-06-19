@@ -1,0 +1,11 @@
+13:11:10 | INFO    | logs/run_20260619_131108:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جنگ
+13:11:12 | INFO    | logs/run_20260619_131108:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جنگ (44555 کاراکتر)
+13:11:12 | INFO    | logs/run_20260619_131108:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جنگ_آمریکا_و_اسرائیل_با_ایران
+13:11:12 | INFO    | logs/run_20260619_131108:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جنگ_آمریکا_و_اسرائیل_با_ایران (158112 کاراکتر)
+13:11:12 | INFO    | logs/run_20260619_131108:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جنگ_دوازده‌روزه
+13:11:13 | INFO    | logs/run_20260619_131108:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جنگ_دوازده‌روزه (157138 کاراکتر)
+13:11:13 | INFO    | logs/run_20260619_131108:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جنگ_ایران_و_اسرائیل
+13:11:14 | INFO    | logs/run_20260619_131108:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جنگ_ایران_و_اسرائیل (157138 کاراکتر)
+13:11:14 | INFO    | logs/run_20260619_131108:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/فهرست_جنگ‌های_جهان
+13:11:15 | INFO    | logs/run_20260619_131108:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/فهرست_جنگ‌های_جهان (414 کاراکتر)
+13:11:15 | INFO    | logs/run_20260619_131108:scrape | استخراج پایان یافت. 5 از 5 صفحه معتبر بودند.

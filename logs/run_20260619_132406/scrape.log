@@ -1,0 +1,15 @@
+13:24:08 | INFO    | logs/run_20260619_132406:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جام_جهانی_2014
+13:24:11 | INFO    | logs/run_20260619_132406:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جام_جهانی_2014 (18173 کاراکتر)
+13:24:11 | INFO    | logs/run_20260619_132406:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/جام_جهانی_فوتبال_۲۰۲۶
+13:24:12 | INFO    | logs/run_20260619_132406:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جام_جهانی_فوتبال_۲۰۲۶ (83565 کاراکتر)
+13:24:12 | INFO    | logs/run_20260619_132406:scrape | در حال استخراج: https://fa.wikipedia.org/wiki/مرحله_مقدماتی_جام_جهانی_فوتبال_۲۰۲۶
+13:24:12 | INFO    | logs/run_20260619_132406:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/مرحله_مقدماتی_جام_جهانی_فوتبال_۲۰۲۶ (5173 کاراکتر)
+13:24:12 | INFO    | logs/run_20260619_132406:scrape | در حال استخراج: https://www.varzesh3.com/football/league/28/جام-جهانی
+13:25:42 | ERROR   | logs/run_20260619_132406:scrape | [bs4-fallback] شکست برای https://www.varzesh3.com/football/league/28/جام-جهانی: HTTPSConnectionPool(host='www.varzesh3.com', port=443): Max retries exceeded with url: /football/league/28/%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0xe39abd59010>, 'Connection to www.varzesh3.com timed out. (connect timeout=15)'))
+13:25:42 | WARNING | logs/run_20260619_132406:scrape | رد شد (متن ناکافی یا خالی): https://www.varzesh3.com/football/league/28/جام-جهانی
+13:25:42 | INFO    | logs/run_20260619_132406:scrape | حذف شد از لیست نهایی (بدون محتوای قابل‌استفاده): https://www.varzesh3.com/football/league/28/جام-جهانی
+13:25:42 | INFO    | logs/run_20260619_132406:scrape | در حال استخراج: https://www.tabnak.ir/fa/news/1378825/اولین-جیمی-جامپ-جام-جهانی-2026
+13:26:28 | ERROR   | logs/run_20260619_132406:scrape | [bs4-fallback] شکست برای https://www.tabnak.ir/fa/news/1378825/اولین-جیمی-جامپ-جام-جهانی-2026: HTTPSConnectionPool(host='www.tabnak.ir', port=443): Max retries exceeded with url: /fa/news/1378825/%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D8%AC%DB%8C%D9%85%DB%8C-%D8%AC%D8%A7%D9%85%D9%BE-%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0xe39aba7c230>, 'Connection to www.tabnak.ir timed out. (connect timeout=15)'))
+13:26:28 | WARNING | logs/run_20260619_132406:scrape | رد شد (متن ناکافی یا خالی): https://www.tabnak.ir/fa/news/1378825/اولین-جیمی-جامپ-جام-جهانی-2026
+13:26:28 | INFO    | logs/run_20260619_132406:scrape | حذف شد از لیست نهایی (بدون محتوای قابل‌استفاده): https://www.tabnak.ir/fa/news/1378825/اولین-جیمی-جامپ-جام-جهانی-2026
+13:26:28 | INFO    | logs/run_20260619_132406:scrape | استخراج پایان یافت. 3 از 5 صفحه معتبر بودند.
