@@ -1,0 +1,8 @@
+11:46:52 | INFO    | logs/run_20260620_114652:search | شروع جستجو برای موضوع: 'رستوران خوب در تهران' | تعداد هدف: 5
+11:46:52 | DEBUG   | logs/run_20260620_114652:search | تلاش شماره 1 | درخواست 15 نتیجه از DuckDuckGo
+11:46:54 | INFO    | logs/run_20260620_114652:search | نتیجه یافت شد: بهترین رستوران های تهران بر اساس نظرات مردم و امتیاز آن ها -> https://safarmarket.com/blog/attractions/iran/tehran/best-restaurants-in-tehran
+11:46:54 | INFO    | logs/run_20260620_114652:search | نتیجه یافت شد: رستوران های تهران | آشنایی با بهترین رستورانهای پایتخت -> https://safarzon.com/mag/با-بهترین-رستوران-های-تهران-آشنا-شوید/
+11:46:54 | INFO    | logs/run_20260620_114652:search | نتیجه یافت شد: بهترین رستوران های تهران از نظر مردم + آدرس، منو و قیمت | لستسکند -> https://lastsecond.ir/blog/4145-tehran-best-restaurants
+11:46:54 | INFO    | logs/run_20260620_114652:search | نتیجه یافت شد: معرفی بهترین رستوران های تهران؛ از مسلم تا تهران ۳۶۰ -> https://www.kojaro.com/food/195828-tehran-top-restaurants/
+11:46:54 | INFO    | logs/run_20260620_114652:search | نتیجه یافت شد: معرفی بهترین رستوران های تهران | 25 رستوران+ آدرس+ ساعت کاری -> https://www.otaghak.com/blog/best-restaurants-in-tehran/
+11:46:54 | INFO    | logs/run_20260620_114652:search | جستجو کامل شد. 5 نتیجه نهایی.

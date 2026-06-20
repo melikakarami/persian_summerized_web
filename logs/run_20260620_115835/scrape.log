@@ -1,0 +1,16 @@
+11:58:38 | INFO    | logs/run_20260620_115835:scrape | شروع استخراج موازی با 5 Thread
+11:58:39 | INFO    | logs/run_20260620_115835:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/تهران (105628 کاراکتر)
+11:58:39 | INFO    | logs/run_20260620_115835:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/تهران
+11:59:14 | ERROR   | logs/run_20260620_115835:scrape | [bs4] شکست برای https://www.karnaval.ir/blog/introduction-tehran: HTTPSConnectionPool(host='www.karnaval.ir', port=443): Max retries exceeded with url: /blog/introduction-tehran (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ab7e4469310>, 'Connection to www.karnaval.ir timed out. (connect timeout=5)'))
+11:59:14 | WARNING | logs/run_20260620_115835:scrape | رد شد (متن ناکافی): https://www.karnaval.ir/blog/introduction-tehran
+11:59:14 | INFO    | logs/run_20260620_115835:scrape | حذف شد: https://www.karnaval.ir/blog/introduction-tehran
+11:59:14 | ERROR   | logs/run_20260620_115835:scrape | [bs4] شکست برای https://www.alibaba.ir/mag/tehran/tehran-ci/tehran-attractions/: HTTPSConnectionPool(host='www.alibaba.ir', port=443): Max retries exceeded with url: /mag/tehran/tehran-ci/tehran-attractions/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ab7e4468a70>, 'Connection to www.alibaba.ir timed out. (connect timeout=5)'))
+11:59:14 | WARNING | logs/run_20260620_115835:scrape | رد شد (متن ناکافی): https://www.alibaba.ir/mag/tehran/tehran-ci/tehran-attractions/
+11:59:14 | INFO    | logs/run_20260620_115835:scrape | حذف شد: https://www.alibaba.ir/mag/tehran/tehran-ci/tehran-attractions/
+11:59:14 | ERROR   | logs/run_20260620_115835:scrape | [bs4] شکست برای https://fa.irunesco.org/tehran/: HTTPSConnectionPool(host='fa.irunesco.org', port=443): Max retries exceeded with url: /tehran/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ab7e7b0b8f0>, 'Connection to fa.irunesco.org timed out. (connect timeout=5)'))
+11:59:14 | WARNING | logs/run_20260620_115835:scrape | رد شد (متن ناکافی): https://fa.irunesco.org/tehran/
+11:59:14 | INFO    | logs/run_20260620_115835:scrape | حذف شد: https://fa.irunesco.org/tehran/
+11:59:49 | ERROR   | logs/run_20260620_115835:scrape | [bs4] شکست برای https://iranfile.ir/region/tehran: HTTPSConnectionPool(host='iranfile.ir', port=443): Max retries exceeded with url: /region/tehran (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ab7e4278080>, 'Connection to iranfile.ir timed out. (connect timeout=5)'))
+11:59:49 | WARNING | logs/run_20260620_115835:scrape | رد شد (متن ناکافی): https://iranfile.ir/region/tehran
+11:59:49 | INFO    | logs/run_20260620_115835:scrape | حذف شد: https://iranfile.ir/region/tehran
+11:59:49 | INFO    | logs/run_20260620_115835:scrape | پایان استخراج. 1 از 5 صفحه معتبر بودند.

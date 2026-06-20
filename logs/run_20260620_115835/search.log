@@ -1,0 +1,8 @@
+11:58:35 | INFO    | logs/run_20260620_115835:search | شروع جستجو برای موضوع: 'تهران' | تعداد هدف: 5
+11:58:35 | DEBUG   | logs/run_20260620_115835:search | تلاش شماره 1 | درخواست 15 نتیجه از DuckDuckGo
+11:58:38 | INFO    | logs/run_20260620_115835:search | نتیجه یافت شد: تهران -> https://fa.wikipedia.org/wiki/تهران
+11:58:38 | INFO    | logs/run_20260620_115835:search | نتیجه یافت شد: معرفی شهر تهران ، دسترسی ها و دیدنی ها - ایران فایل -> https://iranfile.ir/region/tehran
+11:58:38 | INFO    | logs/run_20260620_115835:search | نتیجه یافت شد: تهران شهر یادگیرنده - کمیسیون ملی یونسکو در ایران -> https://fa.irunesco.org/tehran/
+11:58:38 | INFO    | logs/run_20260620_115835:search | نتیجه یافت شد: جاهای دیدنی تهران 1404؛ 202 مکان دیدنی تهران + عکس و آدرس - بلیط هواپیما -> https://www.alibaba.ir/mag/tehran/tehran-ci/tehran-attractions/
+11:58:38 | INFO    | logs/run_20260620_115835:search | نتیجه یافت شد: معرفی شهر تهران | دانستنی های پیش از سفر به پایتخت - کارناوال -> https://www.karnaval.ir/blog/introduction-tehran
+11:58:38 | INFO    | logs/run_20260620_115835:search | جستجو کامل شد. 5 نتیجه نهایی.
