@@ -1,0 +1,6 @@
+15:38:21 | INFO    | logs/run_20260712_153821:search | شروع جستجو برای موضوع: 'gta6' | تعداد هدف: 3
+15:38:21 | DEBUG   | logs/run_20260712_153821:search | تلاش شماره 1 | درخواست 9 نتیجه از DuckDuckGo
+15:38:23 | INFO    | logs/run_20260712_153821:search | نتیجه یافت شد: GTA -> https://fa.wikipedia.org/wiki/GTA
+15:38:23 | INFO    | logs/run_20260712_153821:search | نتیجه یافت شد: Grand Theft Auto VI - Wikipedia -> https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI
+15:38:23 | INFO    | logs/run_20260712_153821:search | نتیجه یافت شد: r/GTA6 -> https://www.reddit.com/r/GTA6/
+15:38:23 | INFO    | logs/run_20260712_153821:search | جستجو کامل شد. 3 نتیجه نهایی.

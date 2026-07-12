@@ -1,0 +1,8 @@
+15:31:42 | INFO    | logs/run_20260712_153142:search | شروع جستجو برای موضوع: 'هوش مصنوعی در پزشکی' | تعداد هدف: 5
+15:31:42 | DEBUG   | logs/run_20260712_153142:search | تلاش شماره 1 | درخواست 15 نتیجه از DuckDuckGo
+15:31:43 | INFO    | logs/run_20260712_153142:search | نتیجه یافت شد: هوش مصنوعی در مراقبت پزشکی - ویکیپدیا، دانشنامهٔ آزاد -> https://fa.wikipedia.org/wiki/هوش_مصنوعی_در_مراقبت_پزشکی
+15:31:43 | INFO    | logs/run_20260712_153142:search | نتیجه یافت شد: Artificial intelligence in healthcare - Wikipedia -> https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare
+15:31:43 | INFO    | logs/run_20260712_153142:search | نتیجه یافت شد: کاربردهای هوش مصنوعی در پزشکی و حوزه سلامت | شرکت نبض -> https://nabzgroup.com/mag/artificial-intelligence-in-medicine
+15:31:43 | INFO    | logs/run_20260712_153142:search | نتیجه یافت شد: هوش مصنوعی در علوم پزشکی | کاربرد هوش مصنوعی در پزشکی -> https://aims.sums.ac.ir/کاربرد-هوش-مصنوعی-در-پزشکی
+15:31:43 | INFO    | logs/run_20260712_153142:search | نتیجه یافت شد: بهترین هوش مصنوعی پزشکی (رایگان+ آنلاین) • دیجیکالا مگ -> https://www.digikala.com/mag/medical-ai/
+15:31:43 | INFO    | logs/run_20260712_153142:search | جستجو کامل شد. 5 نتیجه نهایی.

@@ -1,0 +1,15 @@
+15:31:43 | INFO    | logs/run_20260712_153142:scrape | شروع استخراج موازی با 5 Thread
+15:31:45 | INFO    | logs/run_20260712_153142:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/هوش_مصنوعی_در_مراقبت_پزشکی (20059 کاراکتر)
+15:31:45 | INFO    | logs/run_20260712_153142:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/هوش_مصنوعی_در_مراقبت_پزشکی
+15:31:45 | INFO    | logs/run_20260712_153142:scrape | [trafilatura] موفق: https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare (92383 کاراکتر)
+15:31:45 | INFO    | logs/run_20260712_153142:scrape | استخراج موفق: https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare
+15:32:55 | ERROR   | logs/run_20260712_153142:scrape | [bs4] شکست برای https://nabzgroup.com/mag/artificial-intelligence-in-medicine: HTTPSConnectionPool(host='nabzgroup.com', port=443): Max retries exceeded with url: /mag/artificial-intelligence-in-medicine (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x784d34c92300>, 'Connection to nabzgroup.com timed out. (connect timeout=5)'))
+15:32:55 | WARNING | logs/run_20260712_153142:scrape | رد شد (متن ناکافی): https://nabzgroup.com/mag/artificial-intelligence-in-medicine
+15:32:55 | INFO    | logs/run_20260712_153142:scrape | حذف شد: https://nabzgroup.com/mag/artificial-intelligence-in-medicine
+15:32:55 | ERROR   | logs/run_20260712_153142:scrape | [bs4] شکست برای https://aims.sums.ac.ir/کاربرد-هوش-مصنوعی-در-پزشکی: HTTPSConnectionPool(host='aims.sums.ac.ir', port=443): Max retries exceeded with url: /%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D8%AF%D8%B1-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x784d21352330>, 'Connection to aims.sums.ac.ir timed out. (connect timeout=5)'))
+15:32:55 | WARNING | logs/run_20260712_153142:scrape | رد شد (متن ناکافی): https://aims.sums.ac.ir/کاربرد-هوش-مصنوعی-در-پزشکی
+15:32:55 | INFO    | logs/run_20260712_153142:scrape | حذف شد: https://aims.sums.ac.ir/کاربرد-هوش-مصنوعی-در-پزشکی
+15:35:15 | ERROR   | logs/run_20260712_153142:scrape | [bs4] شکست برای https://www.digikala.com/mag/medical-ai/: HTTPSConnectionPool(host='www.digikala.com', port=443): Max retries exceeded with url: /mag/medical-ai/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x784d21353a40>, 'Connection to www.digikala.com timed out. (connect timeout=5)'))
+15:35:15 | WARNING | logs/run_20260712_153142:scrape | رد شد (متن ناکافی): https://www.digikala.com/mag/medical-ai/
+15:35:15 | INFO    | logs/run_20260712_153142:scrape | حذف شد: https://www.digikala.com/mag/medical-ai/
+15:35:15 | INFO    | logs/run_20260712_153142:scrape | پایان استخراج. 2 از 5 صفحه معتبر بودند.

@@ -1,0 +1,9 @@
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | شروع استخراج موازی با 3 Thread
+15:38:23 | ERROR   | logs/run_20260712_153821:scrape | [bs4] شکست برای https://www.reddit.com/r/GTA6/: 403 Client Error: Blocked for url: https://www.reddit.com/r/GTA6/
+15:38:23 | WARNING | logs/run_20260712_153821:scrape | رد شد (متن ناکافی): https://www.reddit.com/r/GTA6/
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | حذف شد: https://www.reddit.com/r/GTA6/
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/GTA (275 کاراکتر)
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/GTA
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | [trafilatura] موفق: https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI (63425 کاراکتر)
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | استخراج موفق: https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI
+15:38:23 | INFO    | logs/run_20260712_153821:scrape | پایان استخراج. 2 از 3 صفحه معتبر بودند.

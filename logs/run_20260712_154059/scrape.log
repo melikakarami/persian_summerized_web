@@ -1,0 +1,11 @@
+15:41:01 | INFO    | logs/run_20260712_154059:scrape | شروع استخراج موازی با 4 Thread
+15:41:01 | INFO    | logs/run_20260712_154059:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/لینزی_گراهام (18582 کاراکتر)
+15:41:01 | INFO    | logs/run_20260712_154059:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/لینزی_گراهام
+15:41:02 | INFO    | logs/run_20260712_154059:scrape | [trafilatura] موفق: https://en.wikipedia.org/wiki/Lindsey_Graham (147682 کاراکتر)
+15:41:02 | INFO    | logs/run_20260712_154059:scrape | استخراج موفق: https://en.wikipedia.org/wiki/Lindsey_Graham
+15:41:02 | INFO    | logs/run_20260712_154059:scrape | [trafilatura] موفق: https://didpress.com/202299/ (3283 کاراکتر)
+15:41:02 | INFO    | logs/run_20260712_154059:scrape | استخراج موفق: https://didpress.com/202299/
+15:43:22 | ERROR   | logs/run_20260712_154059:scrape | [bs4] شکست برای https://fararu.com/fa/news/986244/گزارش-رسانه-آمریکایی-از-جزئیات-مرگ-لیندسی-گراهام-علت-مرگ-او-چه-بود: HTTPSConnectionPool(host='fararu.com', port=443): Max retries exceeded with url: /fa/news/986244/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B1%D8%B3%D8%A7%D9%86%D9%87-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D9%85%D8%B1%DA%AF-%D9%84%DB%8C%D9%86%D8%AF%D8%B3%DB%8C-%DA%AF%D8%B1%D8%A7%D9%87%D8%A7%D9%85-%D8%B9%D9%84%D8%AA-%D9%85%D8%B1%DA%AF-%D8%A7%D9%88-%DA%86%D9%87-%D8%A8%D9%88%D8%AF (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x784d34cc2b10>, 'Connection to fararu.com timed out. (connect timeout=5)'))
+15:43:22 | WARNING | logs/run_20260712_154059:scrape | رد شد (متن ناکافی): https://fararu.com/fa/news/986244/گزارش-رسانه-آمریکایی-از-جزئیات-مرگ-لیندسی-گراهام-علت-مرگ-او-چه-بود
+15:43:22 | INFO    | logs/run_20260712_154059:scrape | حذف شد: https://fararu.com/fa/news/986244/گزارش-رسانه-آمریکایی-از-جزئیات-مرگ-لیندسی-گراهام-علت-مرگ-او-چه-بود
+15:43:22 | INFO    | logs/run_20260712_154059:scrape | پایان استخراج. 3 از 4 صفحه معتبر بودند.

@@ -129,7 +129,11 @@ def run(cfg: Config):
     print(final_text)
     print("=" * 60)
 
-    return final_text
+    return {
+    "summary": final_summary,
+    "sources": [{"title": p["title"], "url": p["url"]} for p in page_summaries],
+    "text": final_text
+}
 
 
 if __name__ == "__main__":
