@@ -1,0 +1,14 @@
+09:45:58 | INFO    | logs/run_20260715_094556:scrape | شروع استخراج موازی با 5 Thread
+09:45:58 | INFO    | logs/run_20260715_094556:scrape | [trafilatura] موفق: https://www.bbc.com/persian/articles/cg4wqxkl97xo (3178 کاراکتر)
+09:45:58 | INFO    | logs/run_20260715_094556:scrape | استخراج موفق: https://www.bbc.com/persian/articles/cg4wqxkl97xo
+09:46:00 | INFO    | logs/run_20260715_094556:scrape | [bs4] موفق: https://modern.az/fa/idman/594946/nvavry-dr-jam-jhany-2026 (617 کاراکتر)
+09:46:00 | INFO    | logs/run_20260715_094556:scrape | استخراج موفق: https://modern.az/fa/idman/594946/nvavry-dr-jam-jhany-2026
+09:46:00 | INFO    | logs/run_20260715_094556:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جام_جهانی_فوتبال_2026 (79836 کاراکتر)
+09:46:00 | INFO    | logs/run_20260715_094556:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/جام_جهانی_فوتبال_2026
+09:46:33 | ERROR   | logs/run_20260715_094556:scrape | [bs4] شکست برای https://www.aparat.com/v/quy24ur: HTTPSConnectionPool(host='www.aparat.com', port=443): Max retries exceeded with url: /v/quy24ur (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79423414e240>, 'Connection to www.aparat.com timed out. (connect timeout=5)'))
+09:46:33 | WARNING | logs/run_20260715_094556:scrape | رد شد (متن ناکافی): https://www.aparat.com/v/quy24ur
+09:46:33 | INFO    | logs/run_20260715_094556:scrape | حذف شد: https://www.aparat.com/v/quy24ur
+09:47:09 | ERROR   | logs/run_20260715_094556:scrape | [bs4] شکست برای https://www.irna.ir/news/82932143/مغرب-در-یك-قدمی-میزبانی-جام-جهانی-فوتبال-2026-قرار-گرفت: HTTPSConnectionPool(host='www.irna.ir', port=443): Max retries exceeded with url: /news/82932143/%D9%85%D8%BA%D8%B1%D8%A8-%D8%AF%D8%B1-%DB%8C%D9%83-%D9%82%D8%AF%D9%85%DB%8C-%D9%85%DB%8C%D8%B2%D8%A8%D8%A7%D9%86%DB%8C-%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84-2026-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79423414fa40>, 'Connection to www.irna.ir timed out. (connect timeout=5)'))
+09:47:09 | WARNING | logs/run_20260715_094556:scrape | رد شد (متن ناکافی): https://www.irna.ir/news/82932143/مغرب-در-یك-قدمی-میزبانی-جام-جهانی-فوتبال-2026-قرار-گرفت
+09:47:09 | INFO    | logs/run_20260715_094556:scrape | حذف شد: https://www.irna.ir/news/82932143/مغرب-در-یك-قدمی-میزبانی-جام-جهانی-فوتبال-2026-قرار-گرفت
+09:47:09 | INFO    | logs/run_20260715_094556:scrape | پایان استخراج. 3 از 5 صفحه معتبر بودند.

@@ -1,0 +1,15 @@
+09:42:22 | INFO    | logs/run_20260715_094217:scrape | شروع استخراج موازی با 5 Thread
+09:42:23 | INFO    | logs/run_20260715_094217:scrape | [trafilatura] موفق: https://www.bbc.com/persian/articles/cg4wqxkl97xo (3178 کاراکتر)
+09:42:23 | INFO    | logs/run_20260715_094217:scrape | استخراج موفق: https://www.bbc.com/persian/articles/cg4wqxkl97xo
+09:42:25 | INFO    | logs/run_20260715_094217:scrape | [trafilatura] موفق: https://fa.wikipedia.org/wiki/جام_جهانی_2014 (18339 کاراکتر)
+09:42:25 | INFO    | logs/run_20260715_094217:scrape | استخراج موفق: https://fa.wikipedia.org/wiki/جام_جهانی_2014
+09:42:58 | ERROR   | logs/run_20260715_094217:scrape | [bs4] شکست برای https://www.aparat.com/v/qmulky1: HTTPSConnectionPool(host='www.aparat.com', port=443): Max retries exceeded with url: /v/qmulky1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794262af2840>, 'Connection to www.aparat.com timed out. (connect timeout=5)'))
+09:42:58 | WARNING | logs/run_20260715_094217:scrape | رد شد (متن ناکافی): https://www.aparat.com/v/qmulky1
+09:42:58 | INFO    | logs/run_20260715_094217:scrape | حذف شد: https://www.aparat.com/v/qmulky1
+09:42:59 | ERROR   | logs/run_20260715_094217:scrape | [bs4] شکست برای https://snn.ir/fa/news/1417631/آغاز-دور-دوم-مرحله-گروهی-جام-جهانی-2026: HTTPSConnectionPool(host='snn.ir', port=443): Max retries exceeded with url: /fa/news/1417631/%D8%A2%D8%BA%D8%A7%D8%B2-%D8%AF%D9%88%D8%B1-%D8%AF%D9%88%D9%85-%D9%85%D8%B1%D8%AD%D9%84%D9%87-%DA%AF%D8%B1%D9%88%D9%87%DB%8C-%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-2026 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794262af0500>, 'Connection to snn.ir timed out. (connect timeout=5)'))
+09:42:59 | WARNING | logs/run_20260715_094217:scrape | رد شد (متن ناکافی): https://snn.ir/fa/news/1417631/آغاز-دور-دوم-مرحله-گروهی-جام-جهانی-2026
+09:42:59 | INFO    | logs/run_20260715_094217:scrape | حذف شد: https://snn.ir/fa/news/1417631/آغاز-دور-دوم-مرحله-گروهی-جام-جهانی-2026
+09:43:35 | ERROR   | logs/run_20260715_094217:scrape | [bs4] شکست برای https://football360.ir/league/2e18158c-62dc-4c15-a32a-8bc83864cc81/2026-World-Cup/summary: HTTPSConnectionPool(host='football360.ir', port=443): Max retries exceeded with url: /league/2e18158c-62dc-4c15-a32a-8bc83864cc81/2026-World-Cup/summary (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x794262af1820>, 'Connection to football360.ir timed out. (connect timeout=5)'))
+09:43:35 | WARNING | logs/run_20260715_094217:scrape | رد شد (متن ناکافی): https://football360.ir/league/2e18158c-62dc-4c15-a32a-8bc83864cc81/2026-World-Cup/summary
+09:43:35 | INFO    | logs/run_20260715_094217:scrape | حذف شد: https://football360.ir/league/2e18158c-62dc-4c15-a32a-8bc83864cc81/2026-World-Cup/summary
+09:43:35 | INFO    | logs/run_20260715_094217:scrape | پایان استخراج. 2 از 5 صفحه معتبر بودند.
