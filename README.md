@@ -1,76 +1,73 @@
-# سامانه جستجو، استخراج و خلاصه‌سازی موضوعی محتوای وب فارسی
+# Persian Web Content Search & Summarization 🇮🇷
 
-با گرفتن یک موضوع از کاربر، چند صفحه فارسی مرتبط را در وب پیدا می‌کند، متن آن‌ها را
-استخراج می‌کند و در نهایت یک خلاصه کوتاه، کامل و قابل‌فهم تولید می‌کند.
+An intelligent NLP system for **searching, extracting, and summarizing Persian web content**.
 
-## ساختار پروژه (ماژولار)
+The user enters a topic or question, and the system automatically searches relevant Persian web pages, extracts their main content, and generates a concise Persian summary with the original sources.
 
+## ✨ Features
+
+* 🔎 Persian web search
+* 🌐 Web content extraction
+* 🧹 Text cleaning and preprocessing
+* 🤖 AI-based Persian text summarization
+* 🔗 Source display
+* 🧩 Modular architecture
+* 🖥️ Gradio web interface
+
+## 🛠️ Technologies
+
+* **Python**
+* **Gradio**
+* **Qwen2.5-1.5B-Instruct**
+* **Transformers**
+* **NLP libraries**
+* **Web scraping & search libraries**
+
+## 🔄 Workflow
+
+```text
+User Query
+    ↓
+Web Search
+    ↓
+Content Extraction
+    ↓
+Text Processing
+    ↓
+AI Summarization
+    ↓
+Summary + Sources
 ```
-persian_web_summarizer/
-├── main.py                  # نقطه ورود - orchestrator کل فرایند
-├── config.py                # تمام تنظیمات و آرگومان‌های پویا (تعداد سایت‌ها، مدل، ...)
-├── requirements.txt
-├── modules/
-│   ├── searcher.py          # جستجو در وب با DuckDuckGo
-│   ├── scraper.py           # استخراج متن صفحات (trafilatura + bs4 fallback)
-│   ├── summarizer.py        # خلاصه‌سازی دو مرحله‌ای با LLM سبک (Qwen2.5)
-│   └── logger.py            # لاگ‌گیری متمرکز هر مرحله
-├── logs/                    # هر اجرا یک پوشه جدا با لاگ هر مرحله
-└── outputs/                 # نتایج میانی و خلاصه نهایی (txt + json)
+
+## 📁 Project Structure
+
+```text
+├── app.py
+├── main.py
+├── config.py
+├── searcher.py
+├── scraper.py
+├── summarizer.py
+├── logger.py
+├── outputs/
+└── logs/
 ```
 
-هر مرحله کاملاً مستقل و قابل‌جایگزینی است:
-- می‌توان `searcher.py` را با موتور جستجوی دیگری (Bing/Google/SerpAPI) عوض کرد.
-- می‌توان `summarizer.py` را با مدل دیگر یا API ابری دیگر عوض کرد.
-- `config.py` تنها جایی است که برای تغییر رفتار پیش‌فرض باید ویرایش شود.
-
-## نحوه اجرا (لوکال)
+## 🚀 Installation
 
 ```bash
+git clone https://github.com/melikakarami/persian_summerized_web.git
+cd persian_summerized_web
 pip install -r requirements.txt
-python main.py --topic "هوش مصنوعی در پزشکی" --num-sites 5
 ```
 
-### آرگومان‌های مهم (همه پویا و قابل‌تغییر)
+Run the application:
 
-| آرگومان | پیش‌فرض | توضیح |
-|---|---|---|
-| `--topic` | (اجباری) | موضوع جستجو |
-| `--num-sites` | 5 | تعداد صفحاتی که جستجو/استخراج/خلاصه می‌شوند |
-| `--model` | Qwen/Qwen2.5-1.5B-Instruct | مدل HuggingFace برای خلاصه‌سازی |
-| `--max-chars` | 6000 | حداکثر کاراکتر خام نگه‌داشته‌شده از هر صفحه |
-| `--use-4bit` | خاموش | کوانتیزیشن 4-بیتی برای کاهش مصرف VRAM |
-| `--device` | auto | auto / cuda / cpu |
+```bash
+python app.py
+```
 
-## نحوه اجرا روی Google Colab
+## 🎯 Goal
 
-فایل `colab_notebook.ipynb` را در Colab باز کنید (GPU را از Runtime > Change runtime type
-روی T4 یا بهتر تنظیم کنید) و سلول‌ها را به ترتیب اجرا کنید. نیازی به Ollama نیست؛
-مدل مستقیماً با کتابخانه `transformers` روی GPU کولب بارگذاری می‌شود.
+The goal of this project is to **reduce the time required to read multiple Persian web sources** by automatically searching, extracting, and summarizing their most important information.
 
-## جریان کار (Pipeline)
-
-1. **جستجو (searcher.py):** موضوع کاربر در DuckDuckGo با ناحیه `ir-fa` جستجو می‌شود تا
-   نتایج فارسی برگردند. تعداد نتایج بر اساس `num_sites` پویا تنظیم می‌شود.
-2. **استخراج (scraper.py):** برای هر URL، با `trafilatura` متن اصلی مقاله (بدون منو/تبلیغ)
-   استخراج می‌شود؛ در صورت شکست، fallback به BeautifulSoup.
-3. **خلاصه‌سازی مرحله ۱ (map):** هر صفحه به‌صورت جدا در ۴ تا ۶ جمله خلاصه می‌شود.
-4. **خلاصه‌سازی مرحله ۲ (reduce):** همه خلاصه‌های مرحله ۱ با هم ترکیب و یک خلاصه نهایی
-   منسجم فارسی (~۲۰۰-۳۰۰ کلمه) تولید می‌شود.
-5. **ذخیره:** خروجی نهایی هم در کنسول چاپ می‌شود و هم در `outputs/run_<id>/final_summary.txt`
-   و `final_summary.json` ذخیره می‌شود. نتایج میانی هر مرحله هم برای دیباگ ذخیره می‌شوند.
-
-## لاگ‌گیری
-
-هر اجرا یک پوشه جدا در `logs/run_<timestamp>/` می‌سازد با فایل‌های جدا:
-`search.log`, `scrape.log`, `summarize.log`, `main.log` — هرکدام شامل جزئیات کامل
-آن مرحله (URLها، خطاها، طول متن‌ها، خلاصه‌های میانی).
-
-## نکات و توسعه بعدی
-
-- برای تغییر مدل به مدل سبک دیگر کافی است `--model` را عوض کنید (مثلاً
-  `Qwen/Qwen2.5-0.5B-Instruct` برای سرعت بیشتر روی GPUهای ضعیف‌تر).
-- برای اتصال به API ابری به‌جای اجرای محلی، فقط `summarizer.py` نیاز به تغییر دارد
-  (متد `_generate` را به فراخوانی API تغییر دهید)؛ بقیه پروژه دست‌نخورده می‌ماند.
-- `min_valid_text_len` در `config.py` صفحات خیلی کوتاه (لندینگ‌پیج، خطای ۴۰۴ و ...) را
-  به‌طور خودکار حذف می‌کند.
